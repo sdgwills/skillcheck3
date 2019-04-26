@@ -23,12 +23,14 @@ module.exports = {
       new_img: img,
       new_mortgage: mortgage,
       new_rent: rent
+    }).then(response => {
+      res.status(200).send(response);
     })
   },
 
   delete: (req, res) => {
     const db = req.app.get('db');
     const { id } = req.params;
-    
+
   }
 }

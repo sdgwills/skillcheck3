@@ -18,7 +18,8 @@ export default class Wizard extends Component {
       rent: ''
     }
 
-    // let value = value.bind(value);
+    // let unboundThingy = module.getThingy;
+    // let boundThing = unboundGetThingy.bind(module);
   }
 
   handleChange = e => {
